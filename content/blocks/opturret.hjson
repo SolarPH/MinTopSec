@@ -1,5 +1,5 @@
-name: Crystal Turret
-description: Mindustry Superweapon. Uses Mega Bullet as ammo.
+name: OP Turret
+description: Top Secret
 
 type: ItemTurret
 
@@ -7,21 +7,8 @@ maxAmmo: 5
 
 ammo: {
 	copper: {
-		type: MissileBulletType
 		damage: 40000
 		lifetime: 180
-		speed: 7
-		splashDamageRadius: 0
-		splashDamage: 0
-		frontColor: DB7077
-		backColor: DB7077
-		homingPower: 10000
-		homingRange: 10000
-		
-		bulletWidth: 14
-		bulletHeight: 14
-		bulletSprite: missile
-		bulletShrink: 0
 	}
 }
 
