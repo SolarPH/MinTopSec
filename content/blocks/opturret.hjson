@@ -1,0 +1,46 @@
+name: Crystal Turret
+description: Mindustry Superweapon. Uses Mega Bullet as ammo.
+
+type: ItemTurret
+
+maxAmmo: 5
+
+ammo: {
+	copper: {
+		type: MissileBulletType
+		damage: 40000
+		lifetime: 180
+		speed: 7
+		splashDamageRadius: 0
+		splashDamage: 0
+		frontColor: DB7077
+		backColor: DB7077
+		homingPower: 10000
+		homingRange: 10000
+		
+		bulletWidth: 14
+		bulletHeight: 14
+		bulletSprite: missile
+		bulletShrink: 0
+	}
+}
+
+shootEffect: teleportActivate
+range: 1000
+reload: 180
+inaccuracy: 0
+shots: 3
+recoil: 0.5
+rotatespeed: 3
+targetAir: true
+targetGround: true
+
+health: 200
+baseExplosiveness: 100
+size: 1
+requirements: [
+	copper/12
+]
+category: turret
+
+research: core-shard
