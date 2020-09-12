@@ -4,5 +4,5 @@
   "description": "Experimental Mod for MindustryV6",
   "version": "1.0.0.0",
   "dependencies": [],
-  "MinGameVersion":"105"
+  "minGameVersion": 105
 }
