@@ -3,7 +3,7 @@ description: Top Secret
 
 type: ItemTurret
 
-maxAmmo: 5
+maxAmmo: 100
 
 ammoTypes: {
 	copper: {
@@ -16,7 +16,7 @@ ammoTypes: {
 }
 
 shootEffect: teleportActivate
-range: 1000
+range: 2500
 reload: 30
 inaccuracy: 0
 shots: 3
