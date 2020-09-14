@@ -8,7 +8,7 @@ maxAmmo: 100
 ammoTypes: {
 	copper: {
 		damage: 40000
-		lifetime: 3600
+		lifetime: 600
 		speed: 2.5
 		homingPower: 100
 		homingRange: 10000
@@ -17,7 +17,7 @@ ammoTypes: {
 
 shootEffect: teleportActivate
 range: 1500
-reload: 30
+reload: 180
 inaccuracy: 0
 shots: 3
 recoil: 0.5
