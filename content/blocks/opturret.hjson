@@ -16,8 +16,8 @@ ammoTypes: {
 }
 
 shootEffect: teleportActivate
-range: 1500
-reload: 180
+range: 1000
+reload: 360
 inaccuracy: 0
 shots: 1
 recoil: 0.5
@@ -25,7 +25,7 @@ rotatespeed: 3
 targetAir: true
 targetGround: true
 
-health: 200
+health: 20000
 baseExplosiveness: 100
 size: 1
 requirements: [
