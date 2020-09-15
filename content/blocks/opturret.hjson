@@ -18,7 +18,7 @@ ammoTypes: {
 
 shootEffect: teleportActivate
 range: 1000
-reload: 3600
+reloadTime: 360
 inaccuracy: 0
 shots: 1
 recoil: 0.5
